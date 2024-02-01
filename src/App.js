@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename="http://aravindh-imagine.github.io/react_one">
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
